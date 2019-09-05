@@ -1,0 +1,6 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+use_frameworks!
+target 'DryTencent-iOS_Example' do
+  pod 'DryTencent-iOS', :path => '../'
+end

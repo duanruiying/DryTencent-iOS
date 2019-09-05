@@ -1,0 +1,6 @@
+framework module DryTencent_iOS {
+  umbrella header "DryTencent-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

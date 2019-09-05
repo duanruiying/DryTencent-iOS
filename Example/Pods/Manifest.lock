@@ -1,0 +1,16 @@
+PODS:
+  - DryTencent-iOS (0.0.1)
+
+DEPENDENCIES:
+  - DryTencent-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  DryTencent-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DryTencent-iOS: 30cd6bbac640b45ad8c2699c607d8f66979f948e
+
+PODFILE CHECKSUM: f2ba9c8ee9ca9ff6fa84505f73e01323250f1661
+
+COCOAPODS: 1.8.0.beta.2
