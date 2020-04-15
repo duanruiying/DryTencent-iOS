@@ -3,7 +3,7 @@ iOS: 简化腾讯集成(授权、获取用户信息、QQ好友分享)
 
 ## 官网
 * [腾讯开放平台](http://wiki.open.qq.com)
-* [SDK下载 V3.3.3](http://wiki.connect.qq.com/)
+* [SDK下载 V3.3.8](http://wiki.connect.qq.com/)
 
 ## Prerequisites
 * iOS 10.0+

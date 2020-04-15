@@ -41,19 +41,19 @@
 		6E972B73C157995BA520323B3C5295C5 /* Pods-DryTencent-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryTencent-iOS_Example.modulemap"; sourceTree = "<group>"; };
 		77533EF1850D58482D9D78650B9B8945 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "DryTencent-iOS/Classes/Frameworks/TencentOpenAPI.framework"; sourceTree = "<group>"; };
 		819E48C2C8ADA4828904FC8FC9286079 /* DryTencent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryTencent.m; path = "DryTencent-iOS/Classes/Code/Public/DryTencent.m"; sourceTree = "<group>"; };
-		864472E492CAB63998835A876E2D90AF /* DryTencent-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "DryTencent-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8B3BA24852AF8570F64ABE315912FE2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		864472E492CAB63998835A876E2D90AF /* DryTencent-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "DryTencent-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B3BA24852AF8570F64ABE315912FE2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B76A254C7817AAD2934E646256F60D3 /* DryTencent-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryTencent-iOS-prefix.pch"; sourceTree = "<group>"; };
 		972D9C342F26A1A21E79F7BE061E9571 /* DryTencentQqObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryTencentQqObj.m; path = "DryTencent-iOS/Classes/Code/Public/DryTencentQqObj.m"; sourceTree = "<group>"; };
 		98967A09E300CDE1F9C1AC17310525C8 /* Pods-DryTencent-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryTencent-iOS_Example-Info.plist"; sourceTree = "<group>"; };
 		9D1754DFFFB804DA7E9DEF7D53A6166D /* DryTencent-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryTencent-iOS-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2BDDA2D12C84A4FC43A3DB512B0E20E /* DryTencent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DryTencent_iOS.framework; path = "DryTencent-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2BDDA2D12C84A4FC43A3DB512B0E20E /* DryTencent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryTencent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD42055741C28A055CD270C9D115BE57 /* Pods-DryTencent-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryTencent-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6D4E400075896DD87DAB5F3C128F715 /* Pods_DryTencent_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryTencent_iOS_Example.framework; path = "Pods-DryTencent-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D4E400075896DD87DAB5F3C128F715 /* Pods_DryTencent_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryTencent_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0308A9C45D4EE8D0D0E221B6A276C26 /* DryTencent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryTencent.h; path = "DryTencent-iOS/Classes/Code/Public/DryTencent.h"; sourceTree = "<group>"; };
 		CE8607A75E211D45E66632D841369703 /* DryTencent-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryTencent-iOS.xcconfig"; sourceTree = "<group>"; };
-		DAB8FE242484930185A1C31C660FA6FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DAB8FE242484930185A1C31C660FA6FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAAD0601AD3DE7D81940CCDDA8E104E0 /* DryTencent-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryTencent-iOS-dummy.m"; sourceTree = "<group>"; };
 		F68C6D205BAD8317C774C0EC0C879CA8 /* Pods-DryTencent-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryTencent-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -269,6 +269,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = D54653F6AB79FC905452FA3FD0E9273C /* Products */;
@@ -448,6 +449,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryTencent-iOS/DryTencent-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryTencent_iOS;
 				PRODUCT_NAME = DryTencent_iOS;
@@ -482,6 +484,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryTencent-iOS/DryTencent-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryTencent_iOS;
 				PRODUCT_NAME = DryTencent_iOS;
@@ -548,8 +551,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

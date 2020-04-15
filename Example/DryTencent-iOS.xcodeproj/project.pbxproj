@@ -18,6 +18,7 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9C182E6724477AEA0000B18C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C182E6624477AE90000B18C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C24DA02F9577CEC245182FC /* Pods-DryTencent-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryTencent-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DryTencent-iOS_Tests/Pods-DryTencent-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C182E6624477AE90000B18C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A7715884A948FB0E187AF9C3 /* Pods-DryTencent-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryTencent-iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-DryTencent-iOS_Example/Pods-DryTencent-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A92558E07B42B433ADC97054 /* DryTencent-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "DryTencent-iOS.podspec"; path = "../DryTencent-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCA8BF276C9951DFC37ED489 /* Pods-DryTencent-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryTencent-iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-DryTencent-iOS_Tests/Pods-DryTencent-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C182E6724477AEA0000B18C /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -90,6 +93,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C182E6624477AE90000B18C /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -197,13 +201,17 @@
 				CLASSPREFIX = Dry;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Dry;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XLE6PLCUL5;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryTencent-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -375,6 +383,7 @@
 			baseConfigurationReference = FE5E26490B1FDDE59B0F8EB1 /* Pods-DryTencent-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryTencent-iOS/DryTencent-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryTencent-iOS/DryTencent-iOS-Info.plist";
@@ -391,6 +400,7 @@
 			baseConfigurationReference = A7715884A948FB0E187AF9C3 /* Pods-DryTencent-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryTencent-iOS/DryTencent-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryTencent-iOS/DryTencent-iOS-Info.plist";
