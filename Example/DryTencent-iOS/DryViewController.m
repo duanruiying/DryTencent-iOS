@@ -7,6 +7,7 @@
 //
 
 #import "DryViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface DryViewController ()
 

@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   # System
   s.libraries  = 'z', 'c++', 'iconv', 'sqlite3'
-  s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony'
+  s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony', 'WebKit'
   
   # ThirdParty
   #s.vendored_libraries  = ''
